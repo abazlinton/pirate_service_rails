@@ -5,9 +5,9 @@ class PiratesController < ApplicationController
 
   # GET /pirates
   def index
-    binding.pry
 
-    @pirates = Pirate.all
+    @pirates = Pirate.where(ship_id: params[:ship_id])
+
     if (request.path == "/pirates")
       render json: @pirates, include: :ship
     else 

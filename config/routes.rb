@@ -2,9 +2,7 @@ Rails.application.routes.draw do
   resources :raids
   resources :pirates_raids
   resources :models
-  resources :pirates do
-    resources :ships
-  end
+  resources :pirates
   resources :ships do
     resources :pirates
   end

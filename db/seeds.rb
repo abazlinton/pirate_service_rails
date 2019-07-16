@@ -11,3 +11,5 @@
 @sky = Pirate.create({first_name: "Sky", last_name: "Su", ship: @ship, join_date: DateTime.now().to_s})
 @raid = Raid.create({location: "Edinburgh", loot: 5_000})
 @alex.raids << @raid
+@ship2 = Ship.create({name: "HMS What"})
+
