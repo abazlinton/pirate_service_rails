@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  raid: MyString
+  location: MyString
+  loot: 1
+
+two:
+  raid: MyString
+  location: MyString
+  loot: 1
